@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <link rel="icon" type="image/jpg" href="images/img1.jpg">
+    <title>Tati Portfolio</title>
+
+   <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <img src="images/img1.jpg" alt="">
+                    <div class="logo-text">Al-Fairojz L. Tati</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+         <div class="comment-session">
+        <div class="post-comment">
+            <div class="comment-list">
+                <div class="flex">
+                    <div class="user">
+                        <div class="user-image"><img src="images/img1.jpg" alt=""></div>
+                        <div class="day">10 days ago</div>
+                    </div>
+                </div>
+                <div class="reply">
+                    <div class="lick icon"><i class="fa fa-thumbs-o-up"></i></div>
+                    <div class="dislick icon"><i class="fa fa-thumbs-o-down"></i></div>
+                    <div class="re-comment">Reply</div>
+
+                </div><div class="comment">
+                Thanks that is great work. Could you please send me money for advance payment thanks!
+            </div>
+            </div>
+        </div>
+
+
+        <div class="post-comment">
+            <div class="comment-list">
+                <div class="flex">
+                    <div class="user">
+                        <div class="user-image"><img src="images/img2.jpg" alt=""></div>
+                        <div class="day">5 days ago</div>
+                    </div>
+                </div>
+                <div class="reply">
+                    <div class="lick icon"><i class="fa fa-thumbs-o-up"></i></div>
+                    <div class="dislick icon"><i class="fa fa-thumbs-o-down"></i></div>
+                    <div class="re-comment">Reply</div>
+
+                </div><div class="comment">
+                Ma sarap kumain sumanlatik ng mainint pa
+            </div>
+            </div>
+            
+        </div>
+        <form action="" class="comment-box">
+            <div class="user">
+                <div class="image"><img src="images/img1.jpg" alt=""></div>
+                <div class="name">Al-Fairojz Tati </div>
+            </div>
+            <textarea name="comment"></textarea>
+            <button class="comment-submit">Comment</button>
+        </form>
+    </div>
+            
+                   
+
+                   
+
+                    
+                 </div>
+            </div>
+        </div>
+          <div id="footer">
+        <p style="font-size:0.7rem;color:rgb(159, 18, 18)" align="left">Develop By: <br/><b>Al-Fairojz L. Tati</b>
+        
+            <h4 style="color:rgb(159, 18, 18)" align="center">Copyrights &copy;2024 @ Fairojz Company</h4>
+        </div>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+     </script>
+
+     
+</body>
+</html>

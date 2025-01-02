@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/vendor/aos.css">
+     <link rel="icon" type="image/jpg" href="images/img1.jpg">
+    <title>Tati Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <img src="images/img1.jpg" alt="">
+                    <div class="logo-text">Al-Fairojz L. Tati</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="images/main_photo.jpg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h2>Educational Attainment</h2><hr/><br/>
+                    <h5> <span>Elemantary</span></h5><br/>
+                    <p>John Spirig Sr. Memorial Elementary School</p>
+                    <p>Year Graduated: 2007</p><br/><hr/><br/>
+                    <h5> <span>Secondary</span></h5><br/>
+                    <p>Talon-Talon National High School</p>
+                    <p>Year Graduated: 2011</p><br/><hr/><br/>
+                    <h5> <span>College</span></h5><br/>
+                    <p>Zamboanga Peninsula Polytechnic State Universiy</p>
+                    <p>Year Graduated: Comming Soon In Shaa Allah</p>
+
+                    <div class="btn-group">
+                       <a href="#" class="btn active">Download CV</a>
+                       <a href="Contact.html" class="btn">Contact</a>
+                    </div>
+
+                    
+                 </div>
+            </div>
+        </div>
+     </div>
+     <div id="footer">
+        <p style="font-size:0.7rem;color:rgb(159, 18, 18)" align="left">Develop By: <br/><b>Al-Fairojz L. Tati</b>
+        
+            <h4 style="color:rgb(159, 18, 18)" align="center">Copyrights &copy;2024 @ Fairojz Company</h4>
+        </div>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+     </script>
+</body>
+</html>
